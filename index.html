@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Layout på förstasida med mål att efterlikna angiven specifikation inklusive funktionalitet så långt som möjligt.">
+        <title>Struktur & Style</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!--    id(page-wrapper) täcker hela skärmytan. 
+                class(header-container) täcker förstasidans övre sektion.
+                class(main-container) täcker förstasidans nedre sektion.    -->
+        <div id="page-wrapper">
+                <header class="header-container">
+                    <!-- Liten gul bild -->
+                    <div class="bild-left-container_header">
+                    <img src="./img/gul-bild-top-left.png" alt="Liten gul bild" width="500";>
+                    </div>
+                    <!-- Länklista -->
+                    <div class ="länklista-right-container_header">
+                        <!-- <h3>Länklista</h3> (Används ej: var intial rubrik för specifikationens "länklista") -->
+                        <ul>
+                            <li>
+                                <div class="länk-container_header">
+                                    <a href="https://google.com" target="_blank">
+                                        <img src="./img/länklista-1-left.png" 
+                                        alt="Länk1">
+                                    </a>
+                                </div>
+                            </li
+                            ><li><div class="länk-container_header"><a href="https://duckduckgo.com" target="_blank"><img src="./img/länklista-2-left.png" alt="Länk2"></a></div></li
+                            ><li><div class="länk-container_header"><a href="https://yahoo.com" target="_blank"><img src="./img/länklista-3-right.png" alt="Länk3"></a></div></li
+                            ><li><div class="länk-container_header"><a href="https://bing.com" target="_blank"><img src="./img/länklista-4-right.png" alt="Länk4"></a></div></li>
+                        </ul>
+                    </div>
+                </header>
+                <main class="main-container">
+                    <!-- Stor gul bild -->
+                    <div class="bild-left-container_main">
+                        <img src="./img/gul-big-bild-bottom-left.png" alt="Stor gul bild" width="500";>
+                    </div>
+                    <div class="right-container_main">
+                        <ul>
+                            <li>
+                                <!-- Rubrik-ruta -->
+                                <div class="rubrik-right-upper-container_main">
+                                    <h1>Rubrik</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- Brödtext-ruta -->
+                                <div class="brödtext-right-mid-container_main">
+                                    <p>
+                                        <h1>Brödtext</h1>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- Knapp-ruta -->
+                                <div class="knapp-right-lower-container_main">
+                                    <button>
+                                        <h1>Knapp</h1>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </main>
+        </div> 
+    </body>
+</html>
